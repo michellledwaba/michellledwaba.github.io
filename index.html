@@ -1,1 +1,535 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Michell Ledwaba | Data Analyst Portfolio</title> <style> body { font-family: Arial, sans-serif; margin: 0; background: #f4f7f5; color: #222; } header { background: #173f2a; color: white; text-align: center; padding: 60px 20px; } header h1 { font-size: 40px; margin-bottom: 10px; } header p { font-size: 18px; } section { max-width: 950px; margin: auto; padding: 45px 20px; } h2 { color: #173f2a; margin-bottom: 20px; } .card { background: white; padding: 25px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); } .project-image { width: 100%; border-radius: 10px; margin: 15px 0; } .skills span { display: inline-block; background: #dfeee5; color: #173f2a; padding: 8px 14px; margin: 5px; border-radius: 20px; font-weight: bold; } a { color: #173f2a; font-weight: bold; } footer { background: #173f2a; color: white; text-align: center; padding: 25px; } </style> </head> <body> <header> <h1>Michell Ledwaba</h1> <p>Junior Data Analyst | Excel | Power BI | SQL</p> <p>Agriculture & Data Analytics</p> </header> <section> <h2>About Me</h2> <div class="card"> <p> I am an aspiring Data Analyst with a background in Crop Production and practical training in data analytics. I enjoy cleaning, analysing and visualising data to identify useful insights and support better decision-making. </p> </div> </section> <section> <h2>Projects</h2> <div class="card"> <h3>Agricultural Production & Profitability Dashboard</h3> <img class="project-image" src="IMG_6752.jpeg" alt="Agricultural Production and Profitability Power BI Dashboard"><p> An interactive Power BI dashboard analysing agricultural production, yield and profitability across crops and provinces. </p> <p><strong>Tools:</strong> Power BI, DAX, Excel, Data Cleaning and Data Visualisation</p> <h4>Key Insights</h4> <ul> <li>Profitability varies across crops and provinces.</li> <li>Average yield differs across provinces.</li> <li>Rainfall and yield patterns provide insight into agricultural productivity.</li> </ul> </div> <div class="card"> <h3>Job Salary Data Analysis</h3> <p> Analysis of job and salary data using Excel to clean, organise and investigate salary patterns and job categories. </p> <p><strong>Tools:</strong> Excel and Data Analysis</p> </div> <div class="card"> <h3>Agriculture SQL Database</h3> <p> A beginner SQL project involving agricultural data, database tables and queries for analysing structured data. </p> <p><strong>Tools:</strong> MySQL and SQL</p> </div> </section> <section> <h2>Skills</h2> <div class="card skills"> <span>Microsoft Excel</span> <span>Power BI</span> <span>SQL</span> <span>DAX</span> <span>Data Cleaning</span> <span>Data Analysis</span> <span>Data Visualisation</span> </div> </section> <section> <h2>Certificates & Training</h2> <div class="card"> <p>Data Analytics / Data Foundations</p> <p>Power BI Training</p> <p>SQL Training</p> <p>Excel Training</p> </div> </section> <section> <h2>Contact</h2> <div class="card"><p><a href="Michell_CV.pdf" target="_blank">Download My CV</a></p> <p>I am open to junior Data Analyst, Data Support and Data Entry opportunities.</p> <p><strong>LinkedIn:</strong> Add your LinkedIn profile</p> <p><strong>Email:</strong> Add your professional email</p> </div> </section> <footer> <p>© 2026 Michell Ledwaba | Data Analytics Portfolio</p> </footer> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Michell Ledwaba | Junior Data Analyst Portfolio</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7f6;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #173f2a;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 46px;
+    margin: 0 0 10px;
+}
+
+header h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a {
+    color: #173f2a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 55px 20px;
+}
+
+section h2 {
+    color: #173f2a;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #173f2a;
+    font-size: 22px;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 20px 0;
+    background: #eee;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #dfeee5;
+    color: #173f2a;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background: #173f2a;
+    color: white !important;
+    padding: 12px 22px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+.contact a {
+    color: #173f2a;
+    font-weight: bold;
+}
+
+footer {
+    background: #173f2a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Michell Ledwaba</h1>
+
+<h2>Junior Data Analyst</h2>
+
+<p>Excel | Power BI | SQL | Data Visualisation</p>
+
+<p>Agriculture & Data Analytics</p>
+
+</header>
+
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#education">Education</a>
+
+<a href="#certificates">Certificates</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+I am an entry-level Data Analyst with an Advanced Diploma in Crop Production
+and practical training in data analytics. I have developed hands-on skills
+in Microsoft Excel, Power BI and SQL through data analytics projects.
+</p>
+
+<p>
+I enjoy cleaning, analysing and visualising data to identify trends,
+patterns and insights that can support better decision-making. My
+agricultural background also gives me domain knowledge that I can apply
+to agricultural and business data.
+</p>
+
+<p>
+I am currently seeking opportunities as a Junior Data Analyst,
+Data Support Analyst, Reporting Analyst or Data Entry professional.
+</p>
+
+</div>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="card skills">
+
+<span>Microsoft Excel</span>
+
+<span>Power BI</span>
+
+<span>SQL</span>
+
+<span>MySQL</span>
+
+<span>DAX</span>
+
+<span>Data Cleaning</span>
+
+<span>Data Analysis</span>
+
+<span>Data Visualisation</span>
+
+<span>Dashboard Development</span>
+
+<span>Microsoft Office</span>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Data Analytics Projects</h2>
+
+
+<div class="card">
+
+<h3>Agricultural Production & Profitability Dashboard</h3>
+
+<p>
+<strong>Tools:</strong> Power BI, DAX, Excel
+</p>
+
+<img
+class="project-image"
+src="IMG_6752.jpeg"
+alt="Agricultural Production and Profitability Power BI Dashboard"
+>
+
+<p>
+An interactive Power BI dashboard analysing agricultural production,
+yield and profitability across crops and provinces.
+</p>
+
+<h4>Key Analysis</h4>
+
+<ul>
+
+<li>Analysed total profit across different crops.</li>
+
+<li>Compared profitability across provinces.</li>
+
+<li>Analysed total profit by irrigation type.</li>
+
+<li>Compared average yield across provinces.</li>
+
+<li>Investigated the relationship between rainfall and yield.</li>
+
+<li>Created KPI measures for total profit, average yield and profit margin.</li>
+
+</ul>
+
+<h4>Key Findings</h4>
+
+<ul>
+
+<li>Profitability differs across crops and provinces.</li>
+
+<li>Average yield varies between provinces.</li>
+
+<li>Irrigation type can be compared to understand differences in profitability.</li>
+
+<li>Rainfall patterns can provide useful context when analysing agricultural yield.</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Job Salary Data Analysis</h3>
+
+<p>
+<strong>Tools:</strong> Microsoft Excel
+</p>
+
+<p>
+Analysed a job salary dataset to investigate salary patterns,
+job categories and industry differences.
+</p>
+
+<h4>Skills Demonstrated</h4>
+
+<ul>
+
+<li>Data cleaning and preparation</li>
+
+<li>Excel formulas and calculations</li>
+
+<li>Sorting and filtering</li>
+
+<li>Data categorisation</li>
+
+<li>Trend and pattern analysis</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Agriculture Database</h3>
+
+<p>
+<strong>Tools:</strong> MySQL, SQL
+</p>
+
+<p>
+Created and worked with a basic agricultural database to practise
+structured data management and SQL querying.
+</p>
+
+<h4>Skills Demonstrated</h4>
+
+<ul>
+
+<li>Database creation</li>
+
+<li>Table creation</li>
+
+<li>SQL queries</li>
+
+<li>Structured data organisation</li>
+
+<li>Data retrieval</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>Advanced Diploma in Crop Production</h3>
+
+<p>
+<strong>Tshwane University of Technology</strong>
+</p>
+
+<p>2026</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Diploma in Crop Production</h3>
+
+<p>
+<strong>Tshwane University of Technology</strong>
+</p>
+
+<p>2025</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>National Senior Certificate</h3>
+
+<p>2020</p>
+
+</div>
+
+</section>
+
+
+<section id="experience">
+
+<h2>Work-Integrated Learning</h2>
+
+<div class="card">
+
+<h3>Crop Production — Work-Integrated Learning</h3>
+
+<p>
+
+Gained practical experience in crop production activities including
+soil preparation, transplanting, irrigation, harvesting and crop
+protection.
+
+</p>
+
+<ul>
+
+<li>Assisted with soil preparation and crop establishment.</li>
+
+<li>Participated in transplanting and harvesting activities.</li>
+
+<li>Assisted with irrigation activities.</li>
+
+<li>Applied crop protection practices under supervision.</li>
+
+<li>Developed attention to detail and problem-solving skills.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<section id="certificates">
+
+<h2>Certificates & Training</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Data Foundations / Data Analytics — WithYouWithMe</li>
+
+<li>Power BI Training</li>
+
+<li>SQL Training</li>
+
+<li>Microsoft Excel Training</li>
+
+</ul>
+
+<p>
+Additional certificates and credentials can be added as they are completed.
+</p>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card contact">
+
+<p>
+I am open to opportunities in Junior Data Analysis, Data Support,
+Reporting and Data Entry.
+</p>
+
+<p>
+<a class="button" href="Michell_CV.pdf" target="_blank">
+Download My CV
+</a>
+</p>
+
+<p>
+<strong>LinkedIn:</strong>
+<a href="#" target="_blank">www.linkedin.com/in/michell-ledwaba-8646b4275e</a>
+</p>
+
+<p>
+<strong>Email:</strong>
+<a href="mailto:michellemahlodi44@gmail.com">
+Add Professional Email
+</a>
+</p>
+
+<p>
+<strong>GitHub:</strong>
+<a href="https://github.com/michellledwaba" target="_blank">
+github.com/michellledwaba
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+© 2026 Michell Ledwaba | Data Analytics Portfolio
+</p>
+
+</footer>
+
+</body>
+
+</html>
